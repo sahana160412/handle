@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Errors in JavaScript</h2>
+    <p>systematic errors and random errors. Systematic errors are consistent and repeatable, and can be identified and
+        corrected. Key Words: Error, Absolute Error, Relative Error, Systematic Error, Random Error.</p>
+        <p id="handling_errors"></p>
+        <p id="variable_message"></p>
+
+        <script>
+             try {
+                let x;
+                //console.log(x)
+                
+                
+                
+                
+            }
+            catch(ms) {
+               
+                 document.getElementById("variable_message").innerHTML = ms.message
+            }
+
+            try {
+               
+                
+                subalert("welcome!")
+                
+            }
+            catch(ms) {
+                document.getElementById("handling_errors").innerHTML = ms.message
+                
+            }
+        </script>
+</body>
+
+</html>
